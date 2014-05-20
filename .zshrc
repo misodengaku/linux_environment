@@ -11,9 +11,10 @@ bindkey "^[OH" beginning-of-line
 bindkey "^[OF" end-of-line
 bindkey "^[[3~" delete-char
  
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-unset RUBYOPT
+# rbenv
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
+#unset RUBYOPT
  
 export LSCOLORS=exfxcxdxbxegedabagacad
 
